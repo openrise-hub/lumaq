@@ -1,0 +1,33 @@
+[package]
+name = "lumaq-desktop"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-global-shortcut = "2"
+lumaq-core = { path = "../crates/lumaq-core" }
+lumaq-capture = { path = "../crates/lumaq-capture" }
+lumaq-audio = { path = "../crates/lumaq-audio" }
+lumaq-encoder = { path = "../crates/lumaq-encoder" }
+lumaq-overlay = { path = "../crates/lumaq-overlay" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tokio.workspace = true
+parking_lot.workspace = true
+crossbeam-channel.workspace = true
+chrono.workspace = true
+open = "5.3"

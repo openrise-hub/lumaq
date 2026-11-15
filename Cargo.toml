@@ -26,5 +26,5 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 tokio = { version = "1.43", features = ["full"] }
 chrono = { version = "0.4", features = ["serde"] }
 crossbeam-channel = "0.5"
-parking_lot = "0.12"
+parking_lot = "0.13"
 image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif"] }

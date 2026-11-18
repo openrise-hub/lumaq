@@ -15,4 +15,4 @@ tracing.workspace = true
 crossbeam-channel.workspace = true
 parking_lot.workspace = true
 image.workspace = true
-xcap = "0.2"
+xcap = "0.9"

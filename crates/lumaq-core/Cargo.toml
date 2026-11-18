@@ -15,5 +15,5 @@ chrono.workspace = true
 tokio.workspace = true
 crossbeam-channel.workspace = true
 parking_lot.workspace = true
-sysinfo = "0.33"
+sysinfo = "0.40"
 directories = "6.0"

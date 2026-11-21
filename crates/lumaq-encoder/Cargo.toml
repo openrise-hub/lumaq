@@ -17,4 +17,4 @@ tracing.workspace = true
 crossbeam-channel.workspace = true
 parking_lot.workspace = true
 image.workspace = true
-which = "7.0"
+which = "8.0"
